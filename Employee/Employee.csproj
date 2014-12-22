@@ -49,9 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CeoSalaryStrategy.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeTest.cs" />
+    <Compile Include="HrSalaryStrategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesSalaryStrategy.cs" />
+    <Compile Include="WorkerSalaryStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

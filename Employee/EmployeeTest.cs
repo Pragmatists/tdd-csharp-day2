@@ -8,7 +8,7 @@ namespace Employee
         public void ShouldCalculateSalaryForCEO()
         {
             // given
-            var ceo = new Employee
+            var ceo = new Employee(new CeoSalaryStrategy())
             {
                 Type = Employee.EmployeeType.CEO,
                 Base = 100,
@@ -28,7 +28,7 @@ namespace Employee
         public void ShouldCalculateSalaryForSales()
         {
             // given
-            var sales = new Employee
+            var sales = new Employee(new SalesSalaryStrategy())
             {
                 Type = Employee.EmployeeType.Sales,
                 Base = 100,
@@ -49,7 +49,7 @@ namespace Employee
         public void ShouldCalculateSalaryForHR()
         {
             // given
-            var hr = new Employee
+            var hr = new Employee(new HrSalaryStrategy())
             {
                 Type = Employee.EmployeeType.HR,
                 Base = 100,
@@ -70,7 +70,7 @@ namespace Employee
         public void ShouldCalculateSalaryForWorker()
         {
             // given
-            var worker = new Employee
+            var worker = new Employee(new WorkerSalaryStrategy())
             {
                 Type = Employee.EmployeeType.Worker,
                 Base = 100,
