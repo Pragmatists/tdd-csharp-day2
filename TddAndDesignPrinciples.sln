@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzer", "CodeAnalyzer\CodeAnalyzer.csproj", "{78575BA5-84D7-4189-B2F1-837C0C60D356}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee", "Employee\Employee.csproj", "{5F131F86-BD54-4342-877F-7516BF9AB92A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildersKata", "BuildersKata\BuildersKata.csproj", "{512417FC-82CB-412D-892D-FA91EC550F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardboardFactory", "CardboardFactory\CardboardFactory.csproj", "{32AD7FFA-4E4B-429A-91EE-CF47F7B10EB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{512417FC-82CB-412D-892D-FA91EC550F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512417FC-82CB-412D-892D-FA91EC550F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512417FC-82CB-412D-892D-FA91EC550F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AD7FFA-4E4B-429A-91EE-CF47F7B10EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AD7FFA-4E4B-429A-91EE-CF47F7B10EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AD7FFA-4E4B-429A-91EE-CF47F7B10EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AD7FFA-4E4B-429A-91EE-CF47F7B10EB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
