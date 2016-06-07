@@ -1,3 +1,6 @@
 [submodule "Refactoring-Golf"]
 	path = Refactoring-Golf
 	url = https://github.com/Pragmatists/Refactoring-Golf.git
+[submodule "clean-tests-kata-csharp"]
+	path = clean-tests-kata-csharp
+	url = https://github.com/Pragmatists/clean-tests-kata-csharp.git
